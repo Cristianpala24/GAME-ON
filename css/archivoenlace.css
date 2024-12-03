@@ -1,0 +1,147 @@
+body {
+
+    font-family: 'Segoe UI', Verdana;
+    margin: 0;
+    padding: 0;
+    background-color: #081624;
+    color: white;
+  }
+  
+  header {
+    background-color: #081624;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 20px;
+  }
+  
+  #hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    height: 100vh;
+    background-color: #111;
+  }
+  
+  .hero-content {
+    width: 60%;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content .register-btn {
+    background-color: #A33AFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero-content .avatar {
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    justify-content: center;
+  }
+  
+  .registration-form {
+    width: 30%;
+    background-color: #7e4a9c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .registration-form h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    width: 150px;
+  }
+  
+  .registration-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .registration-form .login-btn {
+    background-color: #ffe522;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login button {
+    background-color: #A33AFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .social-login img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
